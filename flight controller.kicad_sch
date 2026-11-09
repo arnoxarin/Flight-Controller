@@ -6980,6 +6980,12 @@
 		(uuid "03f52df3-6536-4f09-87d7-91dac3e17098")
 	)
 	(junction
+		(at 181.61 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08d93018-5bd1-4b6f-aa2f-bf130e9f5623")
+	)
+	(junction
 		(at 104.14 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7026,6 +7032,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23d1bd4a-547f-4939-9a97-ad07d53f054d")
+	)
+	(junction
+		(at 105.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4582c91f-78e0-4cc4-8bc3-3e1290e5fe51")
 	)
 	(junction
 		(at 101.6 152.4)
@@ -7214,16 +7226,8 @@
 		(uuid "f5ebda9b-7d95-4b19-b74f-8dcfcd66051a")
 	)
 	(no_connect
-		(at 120.65 129.54)
-		(uuid "02c2becc-2701-41cb-8670-f9ce47726640")
-	)
-	(no_connect
 		(at 166.37 93.98)
 		(uuid "0fcbf381-4a9d-41c1-8d02-2ca28f3d9176")
-	)
-	(no_connect
-		(at 166.37 144.78)
-		(uuid "101dc65f-b6c5-4747-811f-2ecbb21e8acf")
 	)
 	(no_connect
 		(at 46.99 176.53)
@@ -7234,44 +7238,52 @@
 		(uuid "149feb5f-fba9-4fbd-9bb6-355dd08bd8c2")
 	)
 	(no_connect
+		(at 166.37 66.04)
+		(uuid "2ec8e254-9001-47fe-a410-e43f37c010e8")
+	)
+	(no_connect
 		(at 46.99 179.07)
 		(uuid "3b61b05f-21fc-4e10-be7b-1f928e58a115")
 	)
 	(no_connect
-		(at 166.37 83.82)
-		(uuid "69b8254b-ea62-4b17-b397-ddb9e88d5e9e")
+		(at 166.37 134.62)
+		(uuid "557ce29d-a699-47b8-aee0-e1c63304b32c")
 	)
 	(no_connect
 		(at 166.37 165.1)
 		(uuid "87b9e388-1181-466b-8810-7dcb3bfc187b")
 	)
 	(no_connect
-		(at 120.65 99.06)
-		(uuid "8e6c615d-3d97-41f7-b8d3-c3d57f6119d7")
+		(at 166.37 137.16)
+		(uuid "898bb2cc-3b77-4430-b8e8-dd3d2953b0a5")
 	)
 	(no_connect
 		(at 120.65 139.7)
 		(uuid "8edd8363-2ac8-47dd-8503-ba72710e9db1")
 	)
 	(no_connect
+		(at 179.07 139.7)
+		(uuid "a3d9b7f0-dea0-4e68-a6c4-7f76d023ed18")
+	)
+	(no_connect
 		(at 166.37 68.58)
 		(uuid "b9aaabdc-ee52-4fd7-bc39-b40bf689a3ef")
+	)
+	(no_connect
+		(at 166.37 132.08)
+		(uuid "c121e048-354c-40df-a44c-e2f39874284a")
 	)
 	(no_connect
 		(at 120.65 137.16)
 		(uuid "d2d3517f-54c8-4a3f-8c70-7ef4d8bb6a26")
 	)
 	(no_connect
-		(at 166.37 167.64)
-		(uuid "d81cc0ac-2063-46be-ae2a-57ef6c40eaa5")
+		(at 166.37 96.52)
+		(uuid "dd1432cd-43e2-44ef-a512-7069088f636d")
 	)
 	(no_connect
-		(at 120.65 93.98)
-		(uuid "eec820b0-fde4-4ec1-8907-deec5eb08e63")
-	)
-	(no_connect
-		(at 166.37 170.18)
-		(uuid "f6c47f82-9a48-4d74-9c9f-012e99782976")
+		(at 166.37 50.8)
+		(uuid "dfb24c2e-b76c-401b-8682-1ec4c9c317d7")
 	)
 	(wire
 		(pts
@@ -7362,6 +7374,16 @@
 			(type default)
 		)
 		(uuid "14b063e2-ccbf-46b6-8d7f-7bf8ea99e085")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1613d9e6-07a8-4608-9e22-453624c7bffa")
 	)
 	(wire
 		(pts
@@ -7525,6 +7547,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 167.64) (xy 181.61 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdc79e4-85c4-4b5d-ae33-b96b77e9e624")
+	)
+	(wire
+		(pts
 			(xy 109.22 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -7612,6 +7644,16 @@
 			(type default)
 		)
 		(uuid "4d010f43-265c-4933-b239-b4c78c1f10ef")
+	)
+	(wire
+		(pts
+			(xy 181.61 170.18) (xy 185.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0a3bb8-e6f4-427f-aa3e-551f01e3fbd1")
 	)
 	(wire
 		(pts
@@ -8175,6 +8217,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 99.06) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c678b97d-282e-404c-a11a-002721aa2cf9")
+	)
+	(wire
+		(pts
 			(xy 240.03 86.36) (xy 240.03 88.9)
 		)
 		(stroke
@@ -8627,6 +8679,30 @@
 			)
 		)
 	)
+	(global_label "voltage"
+		(shape input)
+		(at 166.37 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bdc5b15-9896-4c1c-b9a6-f1f4b93bd66c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.2493 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "spi3 sck"
 		(shape input)
 		(at 166.37 157.48 0)
@@ -8940,30 +9016,6 @@
 		(uuid "2550d685-cbdb-4400-a5f3-574f7d24096c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.77 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "current"
-		(shape input)
-		(at 166.37 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25f337cf-cf1f-49a4-bb28-5d15cf291d24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1285 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9336,42 +9388,6 @@
 			)
 		)
 	)
-	(global_label "switch"
-		(shape input)
-		(at 166.37 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f59f64d-7907-46a6-aa89-46a34770392f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2819 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "uart4" ""
-			(at 166.37 69.8818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "uart4tx"
 		(shape input)
 		(at 210.82 149.86 0)
@@ -9517,6 +9533,42 @@
 		)
 		(property "uart4" ""
 			(at 166.37 74.9618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "switch"
+		(shape input)
+		(at 166.37 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c8eed9c-ee68-4741-84b3-36ca0bdf153a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.2819 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "uart4" ""
+			(at 166.37 148.6218 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9756,30 +9808,6 @@
 			)
 		)
 	)
-	(global_label "voltage"
-		(shape input)
-		(at 166.37 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f68d600-3d37-45c8-b801-d79c8e2c46ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2493 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "s6"
 		(shape input)
 		(at 166.37 106.68 0)
@@ -9837,6 +9865,42 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ppm"
+		(shape input)
+		(at 166.37 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "850e60a5-bf7a-4811-8256-de17ce1f791d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3465 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "uart4" ""
+			(at 166.37 57.1818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9936,7 +10000,7 @@
 			)
 		)
 	)
-	(global_label "PD1"
+	(global_label "PD1 +"
 		(shape input)
 		(at 120.65 114.3 180)
 		(fields_autoplaced yes)
@@ -9948,7 +10012,7 @@
 		)
 		(uuid "96e70caa-4e17-4798-9bdb-c84ea84b84f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9153 114.3 0)
+			(at 111.3753 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9997,7 +10061,7 @@
 			)
 		)
 	)
-	(global_label "PD0"
+	(global_label "PD0 -"
 		(shape input)
 		(at 120.65 111.76 180)
 		(fields_autoplaced yes)
@@ -10009,7 +10073,7 @@
 		)
 		(uuid "9c777d99-13ca-43c4-9b4c-3830c08dd838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9153 111.76 0)
+			(at 111.3753 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10190,6 +10254,30 @@
 		)
 		(property "spi4" ""
 			(at 120.65 82.5818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "current"
+		(shape input)
+		(at 120.65 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b42cfe83-4ea7-4832-8b4a-cd72e4a5afdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8915 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10777,42 +10865,6 @@
 			)
 		)
 	)
-	(global_label "ppm"
-		(shape input)
-		(at 166.37 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe423aaa-5a69-404b-b8ba-3f9d9b472cd3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3465 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "uart4" ""
-			(at 166.37 100.3618 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "spi4_miso"
 		(shape input)
 		(at 120.65 81.28 180)
@@ -10850,8 +10902,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 134.62 0)
+		(lib_id "power:+3.3V")
+		(at 185.42 170.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10859,19 +10911,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0148abbc-4dd5-4d17-8ad7-518fd47f51b7")
-		(property "Reference" "D8"
-			(at 172.974 135.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "tx blue"
-			(at 168.656 131.572 0)
+		(uuid "0124dd5f-21b6-4529-898e-583bcdf0c50f")
+		(property "Reference" "#PWR094"
+			(at 181.61 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,8 +10923,18 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 170.18 134.62 0)
+		(property "Value" "+3.3V"
+			(at 191.262 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10893,7 +10945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 134.62 0)
+			(at 185.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,19 +10955,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 170.18 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 185.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10926,15 +10967,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ba7f4e3-8cd5-41d4-be55-06db45497fdf")
-		)
-		(pin "2"
-			(uuid "cb4b6cd4-d0e4-41a9-964a-e71a9c40f26b")
+			(uuid "475d282f-e025-4ad2-97f2-15eb9849c9c2")
 		)
 		(instances
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "D8")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -11168,6 +11206,97 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 170.18 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0db1e892-b19a-49f7-8109-e34ba76f5409")
+		(property "Reference" "D8"
+			(at 172.974 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "tx blue"
+			(at 168.656 167.132 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 170.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 170.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71643bb2-4654-4cef-adea-6eb2d1670873")
+		)
+		(pin "2"
+			(uuid "1e99b7f0-279d-4484-bd83-6c8d6444e890")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11755,8 +11884,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 181.61 132.08 0)
+		(lib_id "Device:LED")
+		(at 170.18 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11764,11 +11893,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27bfa494-468a-4eb3-a903-f080901036be")
-		(property "Reference" "#PWR093"
-			(at 181.61 135.89 0)
-			(hide yes)
+		(uuid "27ddce5d-f573-4201-8796-071add7166b3")
+		(property "Reference" "D7"
+			(at 173.228 166.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11777,8 +11904,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 181.61 127 0)
+		(property "Value" "rx red"
+			(at 171.196 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11787,8 +11914,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.61 132.08 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 170.18 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11799,7 +11926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 132.08 0)
+			(at 170.18 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,8 +11936,19 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.61 132.08 0)
+		(property "Description" "Light emitting diode"
+			(at 170.18 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11821,12 +11959,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd244195-7e9b-41c5-95e7-706ffd92677f")
+			(uuid "906654e6-b063-40f4-869d-59cc7b60b64e")
+		)
+		(pin "2"
+			(uuid "139f4069-5448-4c3e-aeda-7ccbf832053b")
 		)
 		(instances
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR093")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12068,96 +12209,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33788824-0218-4e76-a648-8a1873f1e4ac")
-		(property "Reference" "D7"
-			(at 172.974 132.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "rx red"
-			(at 169.418 130.302 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 170.18 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 170.18 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a41c7555-5f6a-4172-a2a5-5ef642e22c32")
-		)
-		(pin "2"
-			(uuid "e0a8e07e-0623-4f48-b6d4-de4070efa054")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12493,8 +12544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 181.61 134.62 270)
+		(lib_id "Device:R")
+		(at 109.22 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12502,10 +12553,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3b3817c3-a3da-469a-85c2-b36134d557f0")
-		(property "Reference" "#PWR094"
-			(at 177.8 134.62 0)
-			(hide yes)
+		(uuid "39548445-32d2-4aa2-9140-2649afced150")
+		(property "Reference" "R2"
+			(at 108.712 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12514,8 +12564,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 187.452 134.62 90)
+		(property "Value" "330"
+			(at 109.22 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12524,8 +12574,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.61 134.62 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 100.838 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12536,7 +12586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 134.62 0)
+			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12546,8 +12596,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.61 134.62 0)
+		(property "Description" "Resistor"
+			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12558,20 +12608,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "5aecbe9f-7239-4fa2-abe6-a6ece7e701be")
+			(uuid "401f75ba-221b-4184-8aeb-c1dd2a8e998a")
+		)
+		(pin "2"
+			(uuid "5d564a89-8b28-4b2e-901b-e995d807f36b")
 		)
 		(instances
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR094")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 182.88 139.7 0)
+		(lib_id "Device:R")
+		(at 109.22 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12579,9 +12632,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3d3907cf-f371-4553-a035-2d9a28277e27")
-		(property "Reference" "D9"
-			(at 183.896 142.24 0)
+		(uuid "3cdcb238-1314-4cf6-b6e2-4a1c16e685c9")
+		(property "Reference" "R7"
+			(at 109.474 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12590,8 +12643,8 @@
 				)
 			)
 		)
-		(property "Value" "status green"
-			(at 184.15 143.51 0)
+		(property "Value" "330"
+			(at 109.728 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12600,8 +12653,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 182.88 139.7 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,7 +12665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 139.7 0)
+			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12622,19 +12675,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 139.7 0)
+		(property "Description" "Resistor"
+			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12645,15 +12687,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "77f7e964-0d9c-4b9c-a77f-7b78ac78f479")
+			(uuid "cf3488aa-9fae-4aa6-bd08-1c997d030ef4")
 		)
 		(pin "2"
-			(uuid "a018a8c6-5b68-454d-92ec-5e71b3421095")
+			(uuid "c00be5db-c03f-4e37-9dd1-9c5b4aed044d")
 		)
 		(instances
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "D9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13211,85 +13253,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 181.61 137.16 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c66916e-6935-4e02-b510-5064b09c86d0")
-		(property "Reference" "#PWR092"
-			(at 177.8 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.42 137.1599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.61 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da5fe28a-8878-4383-9ecf-61e7209ccbd6")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -14154,8 +14117,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 194.31 139.7 270)
+		(lib_id "Device:R")
+		(at 177.8 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14163,11 +14126,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6837f215-200a-41c3-a165-b3da734d807d")
-		(property "Reference" "#PWR096"
-			(at 190.5 139.7 0)
-			(hide yes)
+		(uuid "65a18ef9-dac7-4332-89ef-f47963b2b8b4")
+		(property "Reference" "R4"
+			(at 178.054 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14176,19 +14137,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 198.12 139.6999 90)
+		(property "Value" "330"
+			(at 178.054 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 139.7 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 177.8 171.958 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14199,7 +14159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 139.7 0)
+			(at 177.8 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,8 +14169,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 139.7 0)
+		(property "Description" "Resistor"
+			(at 177.8 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14221,12 +14181,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "48fce2c1-110f-45e0-bb16-851082e49f93")
+			(uuid "11e2cb65-a43f-4aba-95cd-4546fdcf79a5")
+		)
+		(pin "2"
+			(uuid "8bda4304-bfd9-458f-a313-975de014c69c")
 		)
 		(instances
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "#PWR096")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16107,85 +16070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 190.5 139.7 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a753a9c9-3ae2-4199-9427-00da65d2b4ad")
-		(property "Reference" "R7"
-			(at 188.722 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 191.77 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 137.922 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15d9192e-5587-417c-b410-c866ab837a93")
-		)
-		(pin "2"
-			(uuid "8e3b931b-5217-4624-b26c-146fd580a4b5")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 196.85 24.13 270)
 		(unit 1)
@@ -16265,6 +16149,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 116.84 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abe130f5-f202-4705-a880-4b0921c22a1d")
+		(property "Reference" "D9"
+			(at 115.824 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "status green"
+			(at 106.68 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 116.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 116.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d65194a3-5194-4280-9932-e1aadeb55e4b")
+		)
+		(pin "2"
+			(uuid "b8f0c80a-9451-439e-b51c-57cd4b22c31f")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 118.11 137.16 90)
 		(unit 1)
@@ -16336,6 +16310,96 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 116.84 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af5e06f9-1aa9-4491-a028-d1f89e39fcd9")
+		(property "Reference" "D6"
+			(at 122.174 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "status green"
+			(at 105.918 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a153a35-2bea-4f14-91a1-87b70aba8038")
+		)
+		(pin "2"
+			(uuid "6cbd2141-a665-4b97-a758-e2833e8771ee")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16673,85 +16737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 177.8 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba6016da-49d1-4680-a419-4b8c7f14fb6a")
-		(property "Reference" "R4"
-			(at 176.022 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 179.07 134.874 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f7bcdb0-620b-4027-97db-5a6f0b7c971c")
-		)
-		(pin "2"
-			(uuid "54606157-c407-4074-af69-fb3582ee682f")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 57.15 0)
 		(unit 1)
@@ -16993,96 +16978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0ae5687-6c8f-4772-b81b-fe9e7262e205")
-		(property "Reference" "D6"
-			(at 164.846 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "status green"
-			(at 167.132 132.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43207903-d66c-4d70-a684-c52af1b8a25a")
-		)
-		(pin "2"
-			(uuid "eed9d856-457b-4b10-a6eb-e5d9dfb5ef00")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 105.41 146.05 270)
 		(unit 1)
@@ -17159,6 +17054,85 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c54d8dc7-7c5b-4a9c-87c4-924e670193b3")
+		(property "Reference" "#PWR096"
+			(at 106.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 93.9801 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4624a49-92e9-4d74-86eb-7852940ce37b")
+		)
+		(instances
+			(project "flight controller"
+				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -17430,7 +17404,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 137.16 270)
+		(at 177.8 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17438,9 +17412,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cf0dd267-d8d4-42f8-80a9-4fc1814f889e")
-		(property "Reference" "R2"
-			(at 176.022 137.414 90)
+		(uuid "ce6c5c3a-07cf-4545-bd1a-bd24724a59b3")
+		(property "Reference" "R3"
+			(at 177.292 165.608 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17450,7 +17424,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 179.07 137.16 90)
+			(at 177.8 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17460,7 +17434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 135.382 90)
+			(at 177.8 169.418 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17471,7 +17445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 137.16 0)
+			(at 177.8 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17482,7 +17456,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 137.16 0)
+			(at 177.8 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17493,15 +17467,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "206dd765-b6ba-42fd-a4bb-935b4601ebec")
+			(uuid "689dbab3-68fd-4754-bead-24fa6a68bf82")
 		)
 		(pin "2"
-			(uuid "51d9a3cf-988b-4507-bd27-069af78bfa13")
+			(uuid "d2adb0ad-6a4d-41ad-8d0b-cb120bf3a7d5")
 		)
 		(instances
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17744,85 +17718,6 @@
 			(project "flight controller"
 				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da58bc45-cfc9-4467-99c1-f0ed93963b2a")
-		(property "Reference" "R3"
-			(at 177.8 130.048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 177.8 131.826 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c64db28-ab16-4388-8ee1-0873d5d05769")
-		)
-		(pin "2"
-			(uuid "1a2b21a1-e331-442f-bdca-9d2d3d295e49")
-		)
-		(instances
-			(project "flight controller"
-				(path "/d0cd3d3b-d42f-4a0d-9317-17db4a7f672b"
-					(reference "R3")
 					(unit 1)
 				)
 			)

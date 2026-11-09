@@ -5572,7 +5572,7 @@
 			)
 		)
 	)
-	(global_label "PD0"
+	(global_label "PD0 -"
 		(shape input)
 		(at 44.45 68.58 180)
 		(fields_autoplaced yes)
@@ -5584,7 +5584,7 @@
 		)
 		(uuid "3c98b76c-26e0-42df-b6d3-ae65116dc289")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.7153 68.58 0)
+			(at 35.1753 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +5800,7 @@
 			)
 		)
 	)
-	(global_label "PD1"
+	(global_label "PD1 +"
 		(shape input)
 		(at 44.45 60.96 180)
 		(fields_autoplaced yes)
@@ -5812,7 +5812,7 @@
 		)
 		(uuid "be645089-8f71-4fb2-bd2d-c03509279711")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.7153 60.96 0)
+			(at 35.1753 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
